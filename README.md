@@ -30,3 +30,8 @@ make run-server
 make run-client
 ```
 
+##### Stop docker
+```
+make stop-docker
+```
+

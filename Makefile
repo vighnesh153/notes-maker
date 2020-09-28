@@ -6,11 +6,17 @@ install-server: ./server/package.json
 
 install: install-client install-server
 
-run-server: install-server
+run-server: install-server run-docker
 	cd ./server && npm start
 
 run-client: install-client
 	cd ./client && npm start
+
+run-docker:
+	docker-compose up
+
+stop-docker:
+	docker-compose down
 
 clean:
 	cd ./client && rm -rf node_modules
