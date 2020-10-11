@@ -3,6 +3,8 @@
 A personal notes maker. Host it on your favourite 
 cloud provider to start making your own notes.
 
+* [Wiki](https://github.com/vighnesh153/notes-maker/wiki)
+
 ### Development Setup
 ##### Pre-requisites
 * [nodejs](https://nodejs.org/en/)
