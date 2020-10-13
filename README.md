@@ -3,7 +3,10 @@
 A personal notes maker. Host it on your favourite 
 cloud provider to start making your own notes.
 
-* [Wiki](https://github.com/vighnesh153/notes-maker/wiki)
+### Documentation
+* [API](https://github.com/vighnesh153/notes-maker/blob/master/docs/API.md)
+* [Database Architecture](https://github.com/vighnesh153/notes-maker/blob/master/docs/DB_Design.md)
+* [UI Mockups](https://github.com/vighnesh153/notes-maker/blob/master/docs/UI_mock_ups.md)
 
 ### Development Setup
 ##### Pre-requisites
