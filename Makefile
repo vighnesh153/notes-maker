@@ -21,3 +21,4 @@ stop-docker:
 clean:
 	cd ./client && rm -rf node_modules
 	cd ./server && rm -rf node_modules
+	rm -rf ./data

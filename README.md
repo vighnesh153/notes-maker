@@ -10,12 +10,10 @@ cloud provider to start making your own notes.
 
 ### Development Setup
 ##### Pre-requisites
-* [nodejs](https://nodejs.org/en/)
-* [docker](https://docs.docker.com/engine/install/)
-* [docker-compose](https://docs.docker.com/compose/install/)
-* [make](https://www.google.com/search?q=install+make) tool
----
-##### Personal flavour
+* Setup [nodejs](https://nodejs.org/en/)
+* Setup [docker](https://docs.docker.com/engine/install/)
+* Setup [docker-compose](https://docs.docker.com/compose/install/)
+* Setup [make](https://www.google.com/search?q=install+make) tool
 * Fork the repo
 * Clone the repo on the system
 ---
@@ -38,5 +36,10 @@ make run-client
 ##### Stop docker
 ```
 make stop-docker
+```
+
+##### Clean project
+```
+make clean
 ```
 

@@ -3,6 +3,7 @@ const cors = require("cors");
 
 const app = express();
 
+// TODO: Only in development
 app.use(cors());
 
 app.get("/api", (req, res, next) => {
